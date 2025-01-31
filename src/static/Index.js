@@ -1,4 +1,4 @@
-import vector from "@/assets/role/vector.png";
+import vector from "@/assets/role/Vector.png";
 import vectorOne from "@/assets/role/vectorOne.png";
 import vectorTwo from "@/assets/role/vectorTwo.png";
 import vectorThree from "@/assets/role/vectorThree.png";
