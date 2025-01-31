@@ -31,10 +31,10 @@ const About = () => {
                 <img src={aboutVideoImg} alt="" />
               </div>
               <div className='absolute w-full h-full top-0 left-0 bg-[#0004] flex items-center justify-center '>
-                <div class="relative flex w-16 h-16">
-                  <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
+                <div className="relative flex w-16 h-16">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
                   <span className='z-2 w-16 h-16 rounded-full bg-white flex  items-center justify-center cursor-pointer '>
-                                <IoPlay className='text-2xl text-primary'/>
+                  <IoPlay className='text-2xl text-primary'/>
                   </span>
                 </div>
               </div>

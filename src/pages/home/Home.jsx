@@ -24,8 +24,8 @@ const Home = () => {
                           <div className='flex gap-6 items-center '>
                               <button className=' font-medium text-base text-primary py-4 px-8 rounded-sm bg-white cursor-pointer transition duration-300 hover:bg-white/80 ' onClick={() => navigate('/role')}>What we do</button>
                               <div className='flex items-center gap-2'>
-                                <div class="relative flex w-6 h-6">
-                                  <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
+                                <div className="relative flex w-6 h-6">
+                                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
                                   <span className='z-2 w-6 h-6 rounded-full bg-white flex  items-center justify-center cursor-pointer '>
                                     <IoPlay className='text-xs text-primary'/>
                                   </span>
@@ -65,8 +65,8 @@ const Home = () => {
                       <img src={infoVideoImg} alt="" className='w-full' />
                     </div>
                     <div className='absolute w-full h-full z-2 bg-[#0009] top-0 left-0 flex items-center justify-center '>
-                        <div class="relative flex w-16 h-16">
-                          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
+                        <div className="relative flex w-16 h-16">
+                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
                           <span className='z-2 w-16 h-16 rounded-full bg-white flex  items-center justify-center cursor-pointer '>
                                 <IoPlay className='text-2xl text-primary'/>
                           </span>
